@@ -74,6 +74,7 @@ html.has-quirks .dgrid-header-hidden .dgrid-cell {
 
 .dgrid-content {
 	position: relative;
+	height: 99%;
 }
 
 .dgrid-scroller {
@@ -84,6 +85,15 @@ html.has-quirks .dgrid-header-hidden .dgrid-cell {
 	margin-top: 25px; /* this will be adjusted programmatically to fit below the header*/
 	bottom: 0px;
 	width: 100%;
+}
+
+.dgrid-loading {
+	position: relative;
+	height: 100%;
+}
+.dgrid-above {
+	position: absolute;
+	bottom: 0;
 }
 
 .ui-icon {
